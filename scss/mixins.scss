@@ -1,0 +1,22 @@
+@import "variables";
+
+@mixin slider-button($padding,$border,$font-size,$color,$border-radius,$background,$font-weight){
+  padding: $padding;
+  border: $border;
+  font-size: $font-size;
+  color: $color;
+  border-radius: $border-radius;
+  background: $background;
+  font-weight: $font-weight;
+}
+
+@mixin service{
+  img{
+    width: 100%;
+  }
+  h3{
+    margin: 10px 0;
+    font-size: 1.8rem;
+    color: $main-color;
+  }
+}
