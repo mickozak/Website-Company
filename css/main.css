@@ -264,7 +264,6 @@ body .wrapper main .main-slider .main-slider-plugin .main-slider-plugin-single-c
 }
 @media screen and (max-width: 992px) {
   body .wrapper main .main-slider .main-slider-plugin .main-slider-plugin-single-content p {
-    font-size: 0.8rem;
     margin: 6px 0;
   }
 }
