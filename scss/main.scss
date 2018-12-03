@@ -79,7 +79,7 @@ body{
       .main-slider{
         grid-area: slider;
         .main-slider-plugin{
-          @media screen and(max-width: 768px){
+          @media screen and(max-width: 830px){
             display: none;
           }
           .main-slider-plugin-single-content{
@@ -94,7 +94,7 @@ body{
               padding: 10px 20px;
             }
             @media screen and (max-width: 992px){
-              top: 40%;
+              top: 30%;
             }
             h1{
               margin: 0;
@@ -139,13 +139,16 @@ body{
               }
             }
           }
+          img{
+            width: 100%;
+          }
         }
         .main-slider-mobile{
           position: relative;
-          @media screen and (min-width: 768px){
+          @media screen and (min-width: 830px){
             display: none;
           }
-          @media screen and (max-width: 768px){
+          @media screen and (max-width: 830px){
             .main-slider-mobile-content {
               position: absolute;
               top: 40%;
