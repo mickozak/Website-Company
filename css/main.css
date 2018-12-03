@@ -210,6 +210,7 @@ body .wrapper main {
 }
 body .wrapper main .main-slider {
   grid-area: slider;
+  position: relative;
 }
 @media screen and (max-width: 830px) {
   body .wrapper main .main-slider .main-slider-plugin {
@@ -218,7 +219,7 @@ body .wrapper main .main-slider {
 }
 body .wrapper main .main-slider .main-slider-plugin .main-slider-plugin-single-content {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 10%;
   padding: 20px 30px;
   border-radius: 5px;
