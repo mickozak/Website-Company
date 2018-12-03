@@ -2,12 +2,247 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BlackOpsDev</title>
+    <title>BlueDiamondDev</title>
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--LIBRARIES-->
+    <link rel="stylesheet" href="css/libraries/animate.min.css"/>
+    <link rel="stylesheet" href="css/libraries/materialize.css"/>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
 </head>
 <body>
 
+<div class="wrapper animated fadeIn slow">
 
+    <!--START HEADER-->
+    <header>
+        <div class="header-logo">
+            <i id="logo" class="far fa-gem"></i>
+            <h1><a href="index.html">BlueDiamondDev.</a></h1>
+        </div>
+        <div class="header-menu-desktop">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#work">Work Process</a></li>
+                    <li><a href="#carrer">Career</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-menu-mobile">
+                <button class="btn-menu">
+                    <span class="bar"></span>
+                    <span class="text">Menu</span>
+                </button>
+                <div class="overlay">
+                    <div class="header-menu-mobile-nav">
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#work">Work Process</a></li>
+                            <li><a href="#carrer">Career</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!--END HEADER-->
+
+    <!--START MAIN-->
+
+    <main>
+        <!--START MAIN-SLIDER-->
+        <div class="main-slider">
+            <div class="main-slider-plugin">
+                <div class="main-slider-plugin-single">
+                    <div class="main-slider-plugin-single-content">
+                        <h1>We are a team that works<br> in the Agile methodology.</h1>
+                        <p>Product development is divided into up to one month iterations. After each <br>sprint we deliver a working version of the product.</p>
+                        <div class="main-slider-plugin-single-content-button">
+                            <a href="#services"><button>READ MORE</button></a>
+                            <a href="#contact"><button style="background: #2979ff">CONTACT US</button></a>
+                        </div>
+                    </div>
+                    <img src="img/slider/slider_one.jpg"/>
+                </div>
+            </div>
+            <div class="main-slider-mobile">
+                <div class="main-slider-mobile-content">
+                    <h1>You can trust us. We turn your ideas into reality.</h1>
+                    <div class="main-slider-mobile-content-button">
+                        <a href="#services"><button>READ MORE</button></a>
+                        <a href="#contact"><button style="background: #2979ff">CONTACT US</button></a>
+                    </div>
+                </div>
+                <img src="img/slider/slider_mobile.jpeg"/>
+            </div>
+        </div>
+        <!--END MAIN-SLIDER-->
+
+        <!--START MAIN-ABOUT-US-->
+        <div id="about" class="main-about-us scrollspy">
+            <h1>About Us</h1>
+            <p>Our team consists of creative people for whom the basic goal is constant development. We create applications using the latest available technologies on the market. Projects implemented by us are characterized by professionalism and full satisfaction of the client's expectations. Do you have an idea? We will help you transform it into an award-winning application.</p>
+            <div class="main-about-us-technology">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-angular"></i>
+                <i class="fab fa-vuejs"></i>
+                <i class="fab fa-node"></i>
+            </div>
+        </div>
+        <!--END MAIN-ABOUT-US-->
+
+        <!--START MAIN-SERVICES-->
+        <div class="main-services">
+            <h1>Our Services</h1>
+            <div class="main-services-all">
+                <div class="main-services-all-one">
+                    <img src="img/services/mobile_dev.jpeg"/>
+                    <h3>Mobile development</h3>
+                    <p id="services" class="scrollspy">We create cross-platform and location-based applications. Build a unique mobile application with a beautiful user interface tailored to the customer's needs.</p>
+                </div>
+                <div class="main-services-all-two">
+                    <img src="img/services/web_dev.jpeg"/>
+                    <h3>Web development</h3>
+                    <p>We make progressive internet applications, Node.JS, Angular.JS and React.JS. Develop your business with a great internet application based on the latest technologies.</p>
+                </div>
+                <div class="main-services-all-three">
+                    <img src="img/services/it_con.jpg"/>
+                    <h3>IT consulting</h3>
+                    <p>If you need consultations in the field of IT, please contact us. Our team will help you solve your problem. In addition, we recruit employees in the IT area.</p>
+                </div>
+            </div>
+        </div>
+        <!--END MAIN-SERVICES-->
+
+        <!--START MAIN-WORK-PROCESS-->
+        <div class="main-work-process">
+            <h1>Work Process</h1>
+            <div class="main-work-process-left">
+                <div class="main-work-process-left-item animated fadeIn slow">
+                    <div class="main-work-process-left-item-title">
+                        <h3>01. Kickoff</h3>
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <p>Each project starts with the meeting of the whole team. It is important that your business goals are understandable for each of our employees.</p>
+                </div>
+                <div id="work" class="main-work-process-left-item animated fadeIn slow scrollspy">
+                    <div class="main-work-process-left-item-title">
+                        <h3>02. UX Design</h3>
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <p>This is the stage in which we help to solve the problem and create the impression of user satisfaction.</p>
+                </div>
+                <div class="main-work-process-left-item animated fadeIn slow">
+                    <div class="main-work-process-left-item-title">
+                        <h3>03. Visual Design</h3>
+                        <i class="fas fa-object-group"></i>
+                    </div>
+                    <p>Our team takes your idea to the next level. With the help of developer tools, we present visualization in the form of a mock-up.</p>
+                </div>
+            </div>
+            <div class="main-work-process-phone">
+                <img src="img/phone/phone.png">
+            </div>
+            <div class="main-work-process-right">
+                <div class="main-work-process-right-item animated fadeIn slow">
+                    <div class="main-work-process-right-item-title">
+                        <h3>04. Development</h3>
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <p>We create a solution to your problem. Our code is transparent. We work through the latest technologies and solutions.</p>
+                </div>
+                <div class="main-work-process-right-item animated fadeIn slow">
+                    <div class="main-work-process-right-item-title">
+                        <h3>05. Product Launch</h3>
+                        <i class="far fa-thumbs-up"></i>
+                    </div>
+                    <p>The product we create is subject to quality control and testing. We want to be sure that you and your clients will receive what you expect.</p>
+                </div>
+            </div>
+        </div>
+        <!--END MAIN-WORK-PROCESS-->
+
+
+        <!--START MAIN-CONTACT/CARRER-->
+        <div class="main-contact-carrer">
+            <h1>Contact</h1>
+            <div class="main-contact">
+                <form class="ui form" method="post" action="/script/send_form.php" id="contact_form">
+                    <div><label for="name">Imię i nazwisko:</label></div>
+                    <div><input type="text" name="name" id="name" class="formField" /></div>
+                    <div><label for="phone">Numer telefonu:</label></div>
+                    <div><input type="text" name="phone" id="phone" class="formField" /></div>
+                    <div><label for="email">Adres email:</label></div>
+                    <div><input type="text" name="email" id="email" class="formField" /></div>
+                    <div id="contact" class="scrollspy"><label for="textarea1 message">Textarea</label></div>
+                    <div><textarea name="message" id="textarea1 message" class="materialize-textarea formField"></textarea></div>
+                    <div><button class="ui button" id="sendBtn">SEND</button></div>
+                </form>
+            </div>
+            <div class="main-carrer">
+                <i class="fas fa-users"></i>
+                <p>BlueDiamondDev is looking for Frontend, Backend and UX / UI developers. If you are interested in working in our company, please leave us your CV.</p>
+                <form  id="carrer" class="scrollspy" action="#">
+                    <div class="file-field input-field">
+                        <div class="btn blue accent-3">
+                            <span>File</span>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text">
+                        </div>
+                    </div>
+                    <button class="ui button" type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+        <!--END MAIN-CONTACT/CARRER-->
+    </main>
+
+<!--END MAIN-->
+<!--START FOOTER-->
+    <footer>
+        <div class="footer-top section">
+            <div class="footer-top-left">
+                <h1>BlueDiamondDev.</h1>
+                <p>Our team consists of creative people for whom the basic goal is constant development. We create applications using the latest available technologies on the market. Projects implemented by us are characterized by professionalism and full satisfaction of the client's expectations. Do you have an idea? We will help you transform it into an award-winning application.</p>
+                <div class="footer-top-left-social-media">
+                    <ul>
+                        <li><a><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a><i class="fab fa-google-plus-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-top-right">
+                <h1>Contact</h1>
+                <p>Ul. Krakowskie Przedmieście 50</p>
+                <p>20-001 Lublin</p>
+                <p>E-mail: office@bluediamondev.com</p>
+                <p>Phone:</p>
+                <p>+48 739 066 120 - Polish Customer</p>
+                <p>+48 509 392 042 - English Customer</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyrights 2018 © BlueDiamondDevelopment</p>
+        </div>
+    </footer>
+<!--END FOOTER-->
+</div>
+<!--END WRAPPER-->
+
+
+<script src="script/jQuery/jquery.min.js"></script>
+<script src="script/libraries/materialize.js"></script>
 <script src="script/script.js"></script>
 </body>
 </html>
